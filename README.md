@@ -44,8 +44,7 @@
 
 ### 데이터베이스
 
-- MySQL/MariaDB : 사용하는 데이터베이스
-  - 초기 설정 익히기(인코딩 utf8로 설정, 대소문자 설정 등)
+- [MariaDB](/contents/backend/database.md) : 설치, 초기 설정 익히기
 
 ## 서비스
 
