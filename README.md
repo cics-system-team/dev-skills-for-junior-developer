@@ -12,6 +12,9 @@
 - JavaScript
 - React
   - [styled-components](https://styled-components.com/)
+- 템플릿 엔진
+  - Thymeleaf : Spring에서 사용하는 템플릿 엔진
+  - DTL : Django에서 사용하는 템플릿 엔진
 
 ## 백엔드
 
