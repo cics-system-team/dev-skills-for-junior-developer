@@ -6,26 +6,34 @@
 
 ### 버전 관리
 
-- git/GitHub
+![버전 관리 스택](./assets/version_control.png)
+
+- Git : 버전 관리 시스템
+- GitHub : Git 기반 온라인 버전 관리 서비스
 
 ## 서버/운영체제
 
-- AWS EC2 인스턴스 사용법
+- AWS EC2 : AWS에서 제공하는 클라우드 서버
 - POSIX 명령어
 - 초기 설정법
 
 ## 프론트엔드
 
-- HTML/CSS
-- JavaScript
+![프론트엔드 스택](/assets/frontend.png)
+
+- HTML5 : 웹 콘텐츠의 의미와 구조를 정의할 때 사용하는 마크업 언어
+- CSS3 : HTML로 작성된 문서의 표시 방법을 기술하기 위한 스타일 시트 언어
+- JavaScript: 웹 페이지를 위한 스크립트 언어
 - 템플릿 엔진
   - [Thymeleaf](https://www.thymeleaf.org/) : Spring에서 사용하는 템플릿 엔진
   - [DTL](https://docs.djangoproject.com/en/4.0/topics/templates/) : Django에서 사용하는 템플릿 엔진
-- React
+- React: 사용자 인터페이스를 만들기 위한 JavaScript 라이브러리
   - JSX
   - [styled-components](https://styled-components.com/)
 
 ## 백엔드
+
+![백엔드 스택](/assets/backend.png)
 
 ### 언어
 
