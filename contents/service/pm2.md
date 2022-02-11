@@ -57,21 +57,6 @@ module.exports = {
 };
 ```
 
-frontend.config.js
-
-```javascript
-module.exports = {
-  apps: [
-    {
-      name: 'cics-frontend',
-      cwd: '.',
-      args: ['--cwd', './cics-frontend', 'start'],
-      script: 'yarn',
-    },
-  ],
-};
-```
-
 ## 자동 실행
 
 - [PM2 시동 스크립트 생성 문서](https://pm2.keymetrics.io/docs/usage/startup/)
