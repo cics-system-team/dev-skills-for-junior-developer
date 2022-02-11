@@ -27,16 +27,16 @@ MariaDB의 기본 문자 인코딩 방식은 latin1, 기본 콜렉션은 latin1_
 
 my.cnf
 
-```toml
+```ini
 [mysql]
 #...
 default-character-set=utf8mb4
 #...
 [mysqld]
 #...
-collation-server = utf8mb4_unicode_ci
+collation-server=utf8mb4_unicode_ci
 init-connect='SET NAMES utf8mb4'
-character-set-server = utf8mb4
+character-set-server=utf8mb4
 #...
 ```
 
