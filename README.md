@@ -16,11 +16,11 @@
 
 - HTML/CSS
 - JavaScript
-- React
-  - [styled-components](https://styled-components.com/)
 - 템플릿 엔진
   - [Thymeleaf](https://www.thymeleaf.org/) : Spring에서 사용하는 템플릿 엔진
   - [DTL](https://docs.djangoproject.com/en/4.0/topics/templates/) : Django에서 사용하는 템플릿 엔진
+- React
+  - [styled-components](https://styled-components.com/)
 
 ## 백엔드
 
