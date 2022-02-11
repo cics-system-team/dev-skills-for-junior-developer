@@ -35,7 +35,7 @@
 
 ### 웹프레임워크
 
-- SpringBoot : Java/Kotlin 학습이 선행되어야 함
+- SpringBoot : Java 또는 Kotlin 학습이 선행되어야 함
   - Gradle : SpringBoot 관리에 사용
   - yaml : SpringBoot 설정 파일에 사용
   - JPA : 데이터베이스 ORM
