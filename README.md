@@ -51,7 +51,7 @@
 
 - POSIX 명령어 : nohup 명령어와 & 키워드의 사용법 익히기
 - Github Actions : CI/CD를 할 수 있는 자동화 도구
-- [PM2](https://pm2.keymetrics.io/) : 서비스 배포 시 사용하는 프로그램
+- [PM2](/contents/service/pm2.md) : 서비스 배포 시 사용하는 프로그램
   - 참고) [PM2를 활용한 Node.js 무중단 서비스하기](https://engineering.linecorp.com/ko/blog/pm2-nodejs/)
 
 ### 보안
