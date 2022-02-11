@@ -22,9 +22,16 @@
   - [Thymeleaf](https://www.thymeleaf.org/) : Spring에서 사용하는 템플릿 엔진
   - [DTL](https://docs.djangoproject.com/en/4.0/topics/templates/) : Django에서 사용하는 템플릿 엔진
 - React
+  - JSX
   - [styled-components](https://styled-components.com/)
 
 ## 백엔드
+
+### 언어
+
+- Java/Kotlin
+- Python
+- SQL
 
 ### 웹프레임워크
 
@@ -38,13 +45,13 @@
 ### 데이터베이스
 
 - MySQL/MariaDB : 사용하는 데이터베이스
-  - 초기 설정 익히기(utf8로 설정, 대소문자 설정 등)
+  - 초기 설정 익히기(인코딩 utf8로 설정, 대소문자 설정 등)
 
 ## 서비스
 
 ### 웹서버
 
-- NginX : 무형문화연구원에서 주로 사용하는 웹 서버
+- nginx : 무형문화연구원에서 주로 사용하는 웹 서버
 - Apache
 
 ### 배포/자동화
