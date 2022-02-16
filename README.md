@@ -10,8 +10,9 @@
 
 ![버전 관리 스택](./assets/version_control.png)
 
-- Git : 버전 관리 시스템
-- GitHub : Git 기반 온라인 버전 관리 서비스
+- [Git](/contents/common/version_control.md#Git) : 버전 관리 시스템
+- [GitHub](/contents/common/version_control.md#GitHub) : Git 기반 온라인 버전 관리 서비스
+- [Git Flow](/contents/common/version_control.md#GitFlow)
 
 ### 협업툴
 
