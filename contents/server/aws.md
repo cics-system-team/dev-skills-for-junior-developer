@@ -1,3 +1,5 @@
+[홈](https://github.com/cics-system-team/dev-skills-for-junior-developer) > 서버/운영체제 > AWS
+
 # 아마존 웹 서비스
 
 ## 인스턴스 스토리지 용량 확장
