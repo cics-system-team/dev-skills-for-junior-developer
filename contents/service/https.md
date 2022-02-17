@@ -1,3 +1,5 @@
+> [홈](https://github.com/cics-system-team/dev-skills-for-junior-developer#서비스) > 서비스 > 배포/자동화 > PM2
+
 # HTTPS 적용
 
 TLS 인증서 발급에는 [Certbot](https://certbot.eff.org/)을 사용한다. Certbot은 인증서 발급 기관인 [Let's Encrypt](https://letsencrypt.org/)를 이용하며, 인증서 발급을 쉽게 도와주는 툴이다.

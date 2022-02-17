@@ -1,3 +1,5 @@
+> [홈](https://github.com/cics-system-team/dev-skills-for-junior-developer) > 백엔드 > 데이터베이스
+
 # 데이터베이스
 
 CICS는 기본적으로 **MariaDB**를 사용한다.
