@@ -18,7 +18,7 @@ TLS 인증서 발급에는 [Certbot](https://certbot.eff.org/)을 사용한다. 
 
 **로그**
 
-```sb
+```shell
 ubuntu@ip-172-31-11-149 ~
 ❯ snap
 The snap command lets you install, configure, refresh and remove snaps.
