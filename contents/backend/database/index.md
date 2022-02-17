@@ -73,6 +73,8 @@ lower_case_table_names=1
 
 ## Cron으로 정기 백업
 
+![Cron](./assets/dump_cron.png)
+
 `crontab -e` 명령어를 사용하여 cron을 수정한다. 데이터베이스 백업은 `mysqldump`를 이용하여 백업한다. 아래 명령어는 매일 01:00에 DATABASENAME이라는 데이터베이스를 /home/ich*dev/backsql/mysqldump_databasename*$(날짜).sql로 저장하겠다는 의미이다.
 
 ```shell
