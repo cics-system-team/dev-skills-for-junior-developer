@@ -22,7 +22,6 @@
 ### 벤치마크툴
 
 - [Gatling](/contents/common/benchmark/gatling.md) : 부하 테스트 및 벤치마크 툴
-  - [홈페이지](https://gatling.io/)
 
 ## 서버/운영체제
 
