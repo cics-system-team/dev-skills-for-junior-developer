@@ -26,11 +26,16 @@
 
 ## 서버/운영체제
 
-- [AWS](/contents/server/aws.md) : 아마존 웹 서비스
+### AWS
+
+- [AWS(아마존 웹 서비스)](/contents/server/aws.md)
   - EC2 인스턴스 다루는 법
   - EBS 용량 확장법
   - 보안 그룹 설정법
   - 탄력적 IP
+
+### 리눅스
+
 - POSIX 명령어
 - 서버 기초 설정법
 
