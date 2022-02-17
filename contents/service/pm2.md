@@ -28,12 +28,15 @@ module.exports = {
     {
       name: 'cics-frontend',
       cwd: '.',
+      cron_restart: '0 17 * * *',
       args: ['--cwd', './cics-frontend', 'start'],
       script: 'yarn',
     },
   ],
 };
 ```
+
+> pm2는 UTC+00:00이 기준이기 때문에 17시는 한국 표준시로 2시이다.
 
 2. SpringBoot(jar) 앱 실행
 
