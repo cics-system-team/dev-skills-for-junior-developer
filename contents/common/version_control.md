@@ -8,6 +8,7 @@
 - **add** : 변경 파일 스태시(Stash)
 - **commit** : 스태시된 파일 커밋
 - **push** : 커밋된 내용 원격 저장소(Remote repository)에 업로드
+- **pull** : 원격 저장소(Remote repository)에서 로컬 저장소(Locale repository)로 변경 사항 다운로드
 - **branch** : 브랜치 생성
 - **remote**
 - **checkout** : 해당 브랜치로 이동
