@@ -1,4 +1,4 @@
-[홈](https://github.com/cics-system-team/dev-skills-for-junior-developer) > 서버/운영체제 > AWS
+> [홈](https://github.com/cics-system-team/dev-skills-for-junior-developer) > 서버/운영체제 > AWS
 
 # 아마존 웹 서비스
 
