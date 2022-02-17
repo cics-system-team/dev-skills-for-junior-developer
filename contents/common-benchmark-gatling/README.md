@@ -178,4 +178,4 @@
 5. 결과 확인
 
    `./results/cicsbacksimulation-20220217041137069/index.html` 파일을 브라우저로 보면 결과를 시각화해서 확인할 수 있다.
-   ![개틀링 시각화](../assets/gatling_result.png)
+   ![개틀링 시각화](./assets/gatling_result.png)

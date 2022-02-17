@@ -73,7 +73,7 @@
 
 ### 데이터베이스
 
-- [MariaDB](/contents/backend/database/) : 설치, 초기 설정 익히기
+- [MariaDB](/contents/backend-database-mariadb) : 설치, 초기 설정 익히기
 
 ## 서비스
 

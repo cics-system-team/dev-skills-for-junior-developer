@@ -156,8 +156,6 @@ $ pm2 save
 
 [PM2] Remove init script via:
 $ pm2 unstartup systemd
-
-
 ```
 
-##
+이후 `pm2 save`를 실행하여 현재 상태를 저장한다.
