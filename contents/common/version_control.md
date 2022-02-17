@@ -2,18 +2,18 @@
 
 ## Git
 
-**기본적인 명령어**
+자주 사용하는 기본적인 명령어 목록
 
-- clone : 레포지토리 로컬에 복사
-- add : 변경 파일 스태시(Stash)
-- commit : 스태시된 파일 커밋
-- push : 커밋된 내용 원격 저장소(Remote repository)에 업로드
-- branch : 브랜치 생성
-- remote
-- checkout : 해당 브랜치로 이동
-- merge : 브랜치 병합
-- log : 커밋 내역 확인
-- reset : 특정 커밋으로 이동
+- **clone** : 레포지토리 로컬에 복사
+- **add** : 변경 파일 스태시(Stash)
+- **commit** : 스태시된 파일 커밋
+- **push** : 커밋된 내용 원격 저장소(Remote repository)에 업로드
+- **branch** : 브랜치 생성
+- **remote**
+- **checkout** : 해당 브랜치로 이동
+- **merge** : 브랜치 병합
+- **log** : 커밋 내역 확인
+- **reset** : 특정 커밋으로 이동
 
 ## GitHub
 
