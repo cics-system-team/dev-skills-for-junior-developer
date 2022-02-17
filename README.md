@@ -34,7 +34,7 @@
 
 ### AWS
 
-- AWS EC2
+- [AWS EC2](https://github.com/cics-system-team/the-services-of-cics/tree/main/contents/server-aws-ec2)
 - [AWS EBS](/contents/server-aws-ebs)
 - 보안 그룹
 - 탄력적 IP
