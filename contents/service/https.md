@@ -18,7 +18,7 @@ TLS 인증서 발급에는 [Certbot](https://certbot.eff.org/)을 사용한다. 
 
 **로그**
 
-```bash
+```sb
 ubuntu@ip-172-31-11-149 ~
 ❯ snap
 The snap command lets you install, configure, refresh and remove snaps.
@@ -52,13 +52,13 @@ For a short summary of all commands, run 'snap help --all'.
 
 쉘에 이하 명령어를 실행하여 snapd를 최신 버전으로 업데이트한다.
 
-```bash
+```shell
 sudo snap install core; sudo snap refresh core
 ```
 
 **로그**
 
-```bash
+```shell
 ubuntu@ip-172-31-11-149 ~
 ❯ sudo snap install core; sudo snap refresh core
 core 16-2.54.2 from Canonical✓ installed
@@ -71,7 +71,7 @@ snap "core" has no updates available
 
 **로그**
 
-```bash
+```shell
 ubuntu@ip-172-31-11-149 ~ 32s
 ❯ sudo apt-get remove certbot
 E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 12654 (unattended-upgr)
@@ -87,7 +87,7 @@ certbot 1.23.0 from Certbot Project (certbot-eff✓) installed
 
 쉘에서 바로 사용할 수 있도록 /usr/bin 폴더에 링크를 건다.
 
-```
+```shell
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
 
@@ -95,13 +95,13 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
 웹서버가 nginx이므로 뒤에 `nginx` 옵션을 붙여 인증서를 발급한다. 나머지 설정은 certbot에서 자동으로 해 주므로 직접 수정할 필요가 없다.
 
-```
+```shell
 sudo certbot --nginx
 ```
 
 **로그**
 
-```
+```shell
 ubuntu@ip-172-31-11-149 ~
 ❯ sudo certbot --nginx
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
@@ -159,7 +159,7 @@ If you like Certbot, please consider supporting our work by:
 
 쉘에 아래 명령어를 입력해 정상적으로 갱신되는지 테스트해본다.
 
-```
+```shell
 sudo certbot renew --dry-run
 ```
 
@@ -169,7 +169,7 @@ tls인증서의 기간은 90일이므로 그 전에 갱신되도록 cron을 설�
 
 ### 전체 로그
 
-```
+```shell
 ubuntu@ip-172-31-11-149 ~
 ❯ snap
 The snap command lets you install, configure, refresh and remove snaps.
