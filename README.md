@@ -10,9 +10,9 @@
 
 ![버전 관리 스택](./assets/version_control.png)
 
-- [Git](/contents/common/version_control.md#git) : 버전 관리 시스템
-- [GitHub](/contents/common/version_control.md#github) : Git 기반 온라인 버전 관리 서비스
-- [Git Flow](/contents/common/version_control.md#git-flow)
+- [Git](/contents/common-version_control#git) : 버전 관리 시스템
+- [GitHub](/contents/common-version_control#github) : Git 기반 온라인 버전 관리 서비스
+- [Git Flow](/contents/common-version_control#git-flow)
 
 ### 협업툴
 
@@ -21,7 +21,7 @@
 
 ### 벤치마크툴
 
-- [Gatling](/contents/common/benchmark/gatling.md) : 부하 테스트 및 벤치마크 툴
+- [Gatling](/contents/common-benchmark-gatling) : 부하 테스트 및 벤치마크 툴
 
 ## 서버/운영체제
 
@@ -32,11 +32,10 @@
 
 ### AWS
 
-- [AWS(아마존 웹 서비스)](/contents/server/aws.md)
-  - EC2 인스턴스 다루는 법
-  - EBS 용량 확장법
-  - 보안 그룹 설정법
-  - 탄력적 IP
+- AWS EC2
+- [AWS EBS](/contents/server-aws-ebs)
+- 보안 그룹
+- 탄력적 IP
 
 ## 프론트엔드
 
@@ -87,9 +86,9 @@
 
 - POSIX 명령어 : nohup 명령어와 & 키워드의 사용법 익히기
 - Github Actions : CI/CD를 할 수 있는 자동화 도구
-- [PM2](/contents/service/pm2.md) : 서비스 배포 시 사용하는 프로그램
+- [PM2](/contents/service-deploy-pm2) : 서비스 배포 시 사용하는 프로그램
   - 참고) [PM2를 활용한 Node.js 무중단 서비스하기](https://engineering.linecorp.com/ko/blog/pm2-nodejs/)
 
 ### 보안
 
-- [HTTPS](/contents/service/https.md) : TLS 인증서를 사용한 안전한 HTTP 통신
+- [HTTPS](/contents/service-security-https) : TLS 인증서를 사용한 안전한 HTTP 통신

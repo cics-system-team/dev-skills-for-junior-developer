@@ -1,14 +1,10 @@
-> [홈](https://github.com/cics-system-team/dev-skills-for-junior-developer) > 서버/운영체제 > AWS
+> [홈](https://github.com/cics-system-team/dev-skills-for-junior-developer) > 서버/운영체제 > AWS > EBS
 
-# 아마존 웹 서비스
-
-## 인스턴스 생성
-
-## 인스턴스 스토리지 용량 확장
+# AWS EBS
 
 EC2의 스토리지 용량은 EBS(Elastic Block Store)로 관리한다.
 
-### 볼륨 확장 방법
+## 볼륨 확장 방법
 
 1. AWS Elastic Block Store에서 수정하려는 볼륨을 우클릭한다.
 
@@ -38,7 +34,7 @@ EC2의 스토리지 용량은 EBS(Elastic Block Store)로 관리한다.
 
    ![사진7](./assets/ebs_7.png)
 
-### 볼륨 연결 방법
+## 볼륨 연결 방법
 
 1. 인스턴스가 중지되어있는 상태에서 인스턴스에 볼륨 연결을 선택한다. (아래 사진은 이미 연결되어있는상태.)
 
