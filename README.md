@@ -76,6 +76,7 @@
 ### 데이터베이스
 
 - [MariaDB](/contents/backend-database-mariadb) : 설치, 초기 설정 익히기
+- [SQLyog Community Edition](https://github.com/webyog/sqlyog-community/wiki/Downloads) : Mysql/MariaDB 클라이언트
 
 ## 서비스
 
