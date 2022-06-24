@@ -2,7 +2,7 @@
 
 무형문화연구원 신입 개발자를 위한 정보가 담긴 레포지토리
 
-> 서비스 및 업무에 관련된 내용은 [시스템 팀 인수인계서 레포지토리](https://github.com/cics-system-team/thesystem-team-handover-doc)를 참고하세요.
+> 서비스 및 업무에 관련된 내용은 [시스템 팀 인수인계서 레포지토리](https://github.com/cics-system-team/system-team-handover-doc)를 참고하세요.
 
 > 이 문서는 개발자의 도움이 필요합니다. 질문이나 좋은 아이디어가 있다면 [**Discussions**](https://github.com/cics-system-team/dev-skills-for-junior-developer/discussions)에 남겨주세요
 
