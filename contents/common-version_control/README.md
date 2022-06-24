@@ -30,25 +30,34 @@
 
 무형문화연구원에서는 기본적으로 `main` 브랜치, `develop` 브랜치, `release` 브랜치를 사용하며, 새로운 기능을 추가하거나, 수정할 경우 `develop` 브랜치에서 새로운 브랜치로 체크아웃하여 사용한다.
 
+
 ```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel':true,'mainBranchOrder': 1}} }%%
 gitGraph:
-options
-{
-    "nodeSpacing": 60,
-    "nodeRadius": 6
-}
-end
-commit
-branch develop
-checkout develop
-commit
-commit
-checkout master
-commit
-merge develop
-branch release
-checkout release
-commit
-checkout develop
-commit
+    commit id: "init"
+    commit
+    branch develop order: 2
+    checkout develop
+    commit
+    branch bug1 order: 3
+    checkout bug1
+    commit
+    commit
+    checkout develop
+    branch bug2 order:3
+    commit
+    checkout develop
+    merge bug2
+    checkout bug1
+    commit
+    checkout develop
+    merge bug1
+    checkout main
+    merge develop tag: "v1.0.0"
+    branch release order: 0
+    checkout release
+    commit
+    checkout develop
+    commit
+    
 ```
