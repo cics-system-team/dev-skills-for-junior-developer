@@ -267,3 +267,18 @@ If you like Certbot, please consider supporting our work by:
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ```
+
+## TLS 인증서 갱신
+### 인증서 갱신 테스트
+```
+sudo certbot renew --dry-run
+```
+
+위 명령어가 동작하지 않으면 실제로 갱신할 때도 오류가 발생한다.
+
+
+### 인증서 갱신
+```
+sudo certbot renew
+```
+
