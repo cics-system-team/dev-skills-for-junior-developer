@@ -65,13 +65,14 @@
 
 ### 웹프레임워크
 
-- SpringBoot : Java 또는 Kotlin 학습이 선행되어야 함
-  - Gradle : SpringBoot 관리에 사용
-  - yaml : SpringBoot 설정 파일에 사용
-  - JPA : 데이터베이스 ORM
-- Django : Python 학습이 선행되어야 함
-  - venv : 일관성있는 파이썬 실행을 보장하기 위한 가상 환경
-  - wsgi : 웹서버와 파이썬을 연결시켜주는 인터페이스
+- SpringBoot : Java 또는 Kotlin 학습이 선행되어야 함.
+  - Gradle : SpringBoot 관리에 사용.
+  - yaml : SpringBoot 설정 파일에 사용.
+  - Spring Data JPA : 데이터베이스 ORM.
+  - MyBatis : 데이터베이스 퍼시스턴스 프레임워크. 일반적인 스프링 프로젝트에서는 데이터베이스 질의에 JPA나 MyBatis를 사용한다.
+- Django : Python 학습이 선행되어야 함.
+  - venv : 일관성있는 파이썬 실행을 보장하기 위한 가상 환경.
+  - wsgi : 웹서버와 파이썬을 연결시켜주는 인터페이스.
 
 ### 데이터베이스
 
